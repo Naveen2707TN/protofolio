@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -18,22 +19,23 @@
                 <label onclick="location.href='#project'" class="name">Project</label>
                 <label onclick="location.href='#contact'" class="name">Contact Us</label>
                 <a href="file/Resume.pdf">
-                <button class="button">Download CV</button>
+                <button id="btno" class="button">Download CV</button>
                 </a>
             </div>
         </div>
         <div id="home" class="Home">
             <div class="main-div">
                 <div class="left-1">
-                    <h1>Hi, 👋 </h1>
-                    <h1>I'M Naveen</h1>
+                    <h1 class="h" >Hi, 👋 </h1>
+                    <h1 class="h">I'M Naveen</h1>
                     <h2>Web and App Developer</h2>
                     <label class="label-20">
-                        I'm a developer with experience in creating both mobile apps and web applications. I built a custom video player using Android Studio with Java, and also developed a web-based sentiment analysis tool that uses BERT and K-means clustering to analyze user reviews. I enjoy turning ideas into practical, user-friendly solutions using technologies like HTML, CSS, JavaScript, and Spring Boot.
+                        Aspiring Software Developer with hands-on experience in Java, Spring Boot, and Android development. Built projects using BERT for sentiment analysis and developed Web applications with modern UI and API integration. Eager to apply problem-solving and coding skills in a dynamic software development team.
                     </label>
                 </div>
                 <div class="right-1">
-                    <img src="src/logo-image.png" width="250px" height="250px" />
+                    <img class="logo" src="src/logo-image.png" width="250px" height="250px" />
+                    <br>
                 </div>
             </div>
         </div>
@@ -55,7 +57,6 @@
                 <p>
                 Additionally, during my internship, I gained hands-on experience with the Java programming language. I learned core concepts such as Object-Oriented Programming (OOP), and I was able to develop several applications that strengthened my understanding of Java and its practical applications.<br><br>
             </p>
-            <br>
             <div class="deatils-cont">
                 <div class="stack-1">
                     <label id="label-27" class="label-24" onclick="homer()">Technical Skill</label>
@@ -148,7 +149,7 @@
                     <div class="contain">
                         <img src="src/algorithm.png" alt="html" height="100px" width="100px">
                         <br>
-                        <label class="label-22" >Data Structure and Algorithm</label>
+                        <label class="label-22" >DSA</label>
                    </div>
                    <div class="contain">
                         <img src="src/mysql-database.png" alt="html" height="100px" width="100px">
@@ -158,12 +159,12 @@
                    <div class="contain">
                         <img src="src/git.png" alt="html" height="100px" width="100px">
                         <br>
-                        <label class="label-22" >Git Control</label>
+                        <label class="label-22" >Git</label>
                    </div>
                    <div class="contain">
                         <img src="src/gradle-removebg-preview.png" alt="html" height="100px" width="100px">
                         <br>
-                        <label class="label-22" >Gradle Build</label>
+                        <label class="label-22" >Gradle</label>
                    </div>
                    
                 </div>
@@ -214,6 +215,19 @@
                             <label class="tech">Platforms : Android,   Language: Dart</label>
                         </div>
                     </div>
+                    <div class="proj-11">
+                        <div class="left-31">
+                            <img src="src/Spring_Boot.webp" alt="Spring boot" width="150px" height="150px">
+                        </div>
+                        <div class="right-31">
+                            <label class="title">REST API Communication Built with Spring Boot</label>
+                            <label class="content">This application is developed using the Java language. It handles requests and responses on the server side using a Flask API.</label>
+                            <label class="tech">Platforms : Web,     Language: Java</label>
+                            <a href="https://github.com/Naveen2707TN/Sentiment-Analysis">
+                                <button class="btn">GitHub</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="pro-2">
                     <div class="proj-1">
@@ -242,38 +256,38 @@
                 <h1>Reach out to me</h1>
                 <br>
                 <span>
-                    <img src="src/location.png" width="15px" height="15px">
+                    <img class="in" src="src/location.png" width="15px" height="15px">
                     <label class="label-20">   Location : Chennai, Tamil Nadu</label>
                 </span>
                 <br>
                 <span>
-                    <img src="src/email.png" width="15px" height="15px" ><label class="label-20">   Email id : naveenawin2707@gmail.com</label>
+                    <img class="in" src="src/email.png" width="15px" height="15px" ><label class="label-20">   Email id : naveenawin2707@gmail.com</label>
                 </span>
                 <br>
                 <span>
-                    <img src="src/phone.png" width="15px" height="15px" >
+                    <img class="in" src="src/phone.png" width="15px" height="15px" >
                     <label class="label-20">   Phone no : +91 8072201621</label>
                 </span>
                 <br>
                 <br>
                 <div class="contains">
                     <a href="https://github.com/Naveen2707TN/">
-                        <img src="src/github_logo_icon_229278.webp" width="30px" height="30px"/>
+                        <img class="in1" src="src/github_logo_icon_229278.webp" width="30px" height="30px"/>
                     </a>
                     <a href="https://www.linkedin.com/in/naveen-v-73ba75365/">
-                        <img src="src/LI-In-Bug.png" width="30px" height="30px"/>
+                        <img class="in1" src="src/LI-In-Bug.png" width="30px" height="30px"/>
                     </a>
                     <a href="mailto:naveenawin2707@gmail.com">
-                        <img src="src/Gmail.svg" width="30px" height="30px" />
+                        <img class="in1" src="src/Gmail.svg" width="30px" height="30px" />
                     </a>
                     <a href="https://maps.app.goo.gl/J7QS5L5CiHShuApC6">
-                        <img src="src/map.png" width="30px" height="30px" />
+                        <img class="in1" src="src/map.png" width="30px" height="30px" />
                     </a>
                     <a href="https://www.instagram.com/king_awin">
-                        <img src="src/instagram.png" width="30px" height="30px" />
+                        <img class="in1" class="in" src="src/instagram.png" width="30px" height="30px" />
                     </a>
                     <a href="https://wa.me/918072201621">
-                        <img src="src/WhatsApp.svg.png" width="30px" height="30px" />
+                        <img class="in1" src="src/WhatsApp.svg.png" width="30px" height="30px" />
                     </a>
                 </div>
             </div>
@@ -315,6 +329,7 @@
             sof.style.borderBottom = "0px";
             tec.style.borderBottom = "0px";
         }
+        
     </script>
 </body>
 </html>

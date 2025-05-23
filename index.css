@@ -2,6 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     background: linear-gradient(125deg, #0ba0, #081a28, #666464 , #2ecc71);
     background-size: 400% 400%;
@@ -146,8 +149,8 @@ body{
 }
 
 .contain{
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -205,6 +208,7 @@ body{
     justify-content: center;
 }
 .proj-1{
+    padding: 10px;
     width: 37vw;
     height: 30vh;
     background-color: aliceblue;
@@ -461,4 +465,182 @@ p{
 .head{
     color: white;
     font-size: 19px;
+}
+
+.pro-11{
+    display: none;
+}
+.left-31{
+    display: none;
+}
+.right-31{
+    display: none;
+}
+@media (max-width: 768px){
+    .pro-1{
+        flex-direction: column;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    .label-22{
+        font-size: 12px;
+    }
+    .proj-1{
+        width: 80%;
+        height: 20vh;
+    }
+    .left-3{
+        width: 30%;
+        height: 100%;
+    }
+    .right-3{
+        width: 70%;
+        height: 100%;
+    }
+    .proj-11{
+        padding: 10px;
+        width: 80%;
+        height: 20vh;
+        background-color: aliceblue;
+        border-radius: 15px;
+        border: 1px solid black;    
+    }
+    .left-31{
+        width: 30%;
+        height: 100%;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }   
+    .right-31{
+        width: 70%;
+        height: 100%;
+        float: right;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 13px;
+    }
+    .content{
+        font-size: 11px;
+    }
+    .tech{
+        font-size: 11px;
+    }
+    .btn{
+        width: 70px;
+        height: 25px;
+        font-size: 11px;
+    }
+    h1{
+        font-size: 14px;
+    }
+    .in{
+        width: 10px;
+        height: 10px;
+    }
+    .label-20{
+        font-size: 11px;
+    }
+    .in1{
+        width: 20px;
+        height: 20px;
+    }
+    .contains{
+        width: 100%;
+    }
+    .left{
+        width: 30%;
+        height: 100%;
+    }
+    .right{
+        width: 69%;
+        height: 100%;
+    }
+    .head{
+        font-size: 14px;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .button{
+        width: 50px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .nav-bar{
+        width: 100%;
+    }
+    .logo{
+        width: 120px;
+        height: 120px;
+    }
+    .main-div{
+        flex-direction: column;
+    }
+    .left-1{
+        width: 100%;
+        height: 100%;
+        margin: 20px;
+        padding-right: 10px;
+    }
+    .right-1{
+        width: auto;
+        height: auto;
+    }
+    .h{
+        font-size: 19px;
+    }
+    .label-1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 11px;
+    }
+    ul{
+        font-size: 11px;
+    }
+    .stack-1{
+        width: 100%;
+    }
+    .label-24{
+        font-size: 13px;
+    }
+    .label-25{
+        font-size: 13px;
+    }
+    .label-26{
+        font-style: 13px;
+    }
+    .title-1{
+        font-size: 12px;
+    }
+    .det{
+        font-size: 11px;
+    }
+    .c22{
+        font-size: 11px;
+    }
+    .stack{
+        height: 55vh;
+    }
+    .pro-2{
+        display: none;
+    }
+    .pro-1{
+        height: 100%;
+        flex-direction: column;
+    }
+    .main-div-1{
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+   }
 }
